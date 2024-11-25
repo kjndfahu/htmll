@@ -1,13 +1,13 @@
-@media screen and (max-width: 1750px) {
+/* @media screen and (max-width: 1750px) {
 	.work_inner p {
 	    display: flex;
 	    align-items: center;
-	    font-size: 25px;
+	    font-size: 32px;
 	    font-weight: 600;
 	    line-height: 50px;
 	    color: #fff;
 	}
-}
+} */
 
 @media screen and (max-width: 1700px) {
 	.work h1 {
@@ -123,7 +123,7 @@
 
 	.work h3 {
         margin-top: 26px;
-        font-size: 55px;
+        font-size: 65px;
         font-weight: 500;
         line-height: 70px;
         color: #fff;
@@ -568,25 +568,6 @@
         text-transform: uppercase;
 		text-align: center;
 	}
-    }
-
-	.work_link {
-        width: 320px;
-    }
-
-    .work h3 b {
-        font-size: 20px;
-        font-weight: 500;
-    }
-
-    .work_inner p {
-        display: flex;
-        align-items: center;
-        font-size: 18px;
-        font-weight: 600;
-        line-height: 24px;
-        color: #fff;
-    }
 
     .work_inner p img {
     	width: 25px;
@@ -606,7 +587,6 @@
     }
 }
 
-/* Galaxy S8+*/ 
 @media screen and (max-width: 480px) {
   	.modal_text p {
 	    font-size: 16px;
@@ -615,6 +595,15 @@
 	    text-align: center;
 	    color: #fff;
 	    margin-bottom: 24px;
+	}
+
+	.work_inner p {
+	    display: flex;
+	    align-items: center;
+	    font-size: 12px;
+	    font-weight: 600;
+	    line-height: 50px;
+	    color: #fff;
 	}
 
 

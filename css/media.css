@@ -1,5 +1,3 @@
-
-
 @media screen and (max-width: 1750px) {
 	.work_inner p {
 	    display: flex;
@@ -104,6 +102,11 @@
 	    width: 54%;
 	    padding: 0 0 0 30px;
 	}
+
+	.work_restagle {
+        width: 100%;
+    
+    }
 
 	.work_block {
 	    width: 46%;
@@ -270,6 +273,10 @@
 	.firstblock{
 		padding-top: 100px;
 	}
+
+	.textblock{
+		align-items: center;
+	  }
 
 	.work h3{
 		margin-top: 5px;
@@ -511,7 +518,7 @@
     }
 
 	.work_restagle {
-        margin: 40px 0 0 0;
+        margin: 20px 0 0 0;
     }
 
 	.work_inner_block:last-child {
@@ -552,6 +559,10 @@
         line-height: 30px;
         color: #fff;
         text-transform: uppercase;
+    }
+
+	.work_link {
+        width: 320px;
     }
 
     .work h3 b {

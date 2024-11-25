@@ -451,12 +451,19 @@
 @media screen and (max-width: 575px) {
   	.work h1 {
         white-space: nowrap;
-        font-size: 40px;
+        font-size: 45px;
+		line-height: 39px;
         font-weight: 600;
         line-height: var(--DisplayMediumLineHeight);
         color: #fff;
         text-transform: uppercase;
     }
+
+	h3{
+		width:100%;
+    	text-align:justify;
+	}
+
 
     .work h2 {
         margin: -10px 0 0 0;
@@ -509,7 +516,7 @@
     }
 
 	.work_restagle {
-		width: 320px;
+		width: 335px;
 	}
 
 
@@ -559,6 +566,8 @@
         line-height: 30px;
         color: #fff;
         text-transform: uppercase;
+		text-align: center;
+	}
     }
 
 	.work_link {
@@ -625,11 +634,21 @@
 	}
   	.work h1 {
         white-space: nowrap;
-        font-size: 26px;
+    
         font-weight: 600;
         line-height: var(--DisplayMediumLineHeight);
         color: #fff;
         text-transform: uppercase;
+    }
+
+	.work h3 {
+        font-size: 24px;
+
+    }
+
+	.work h3 b {
+        font-size: 22px;
+        font-weight: 500;
     }
 
 	.work_link {
@@ -668,7 +687,7 @@
     .work h2 {
         margin: -5px 0 0 0;
         white-space: nowrap;
-        font-size: 33px;
+    
         font-weight: 600;
         line-height: var(--DisplayMediumLineHeight);
         color: #fff;
@@ -684,7 +703,11 @@
     }
 
 	.work_restagle {
-        width:300px;
+        width:330px;
+    }
+
+	.work_link {
+        width: 335px;
     }
 
 	.modal_overflo {
@@ -783,11 +806,11 @@
     }
 
 	.header {
-        padding: 12px 0 0 0;
+        padding: 20px 0 0 0;
     }
 
 	.work_inner_block:last-child {
-        padding: 20px 0 0 0;
+        padding: 17px 0 0 0;
     }
 
 
